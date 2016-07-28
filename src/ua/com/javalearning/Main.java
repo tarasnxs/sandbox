@@ -8,14 +8,14 @@ public class Main {
 		hello += " ";
 		System.out.println(hello + "World!");
 		hello += "World!";
-		
+		hello = "######################################";
 		for (int i = 0; i < 40000; i++) {
 			for(int j = 0; j < hello.length(); j++) {
 				StringBuilder str = new StringBuilder(hello);
 				str.setCharAt(j, ' ');
 				System.out.println(str);
 				try {
-					Thread.sleep(150);
+					Thread.sleep(90);
 				} catch (Exception e) {
 					// TODO: handle exception
 				}
