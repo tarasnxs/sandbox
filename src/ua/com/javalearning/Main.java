@@ -4,10 +4,8 @@ public class Main {
 	public static String hello;
 
 	public static void main(String[] args) {
-		hello = "Hello";
-		hello += " ";
-		System.out.println(hello + "World!");
-		hello += "World!";
+		hello = "Hello World!";
+		System.out.println(hello);
 		hello = "######################################";
 		for (int i = 0; i < 40000; i++) {
 			for(int j = 0; j < hello.length(); j++) {
